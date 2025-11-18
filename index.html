@@ -1,0 +1,75 @@
+---
+layout: default
+title: Home
+---
+
+<section id="hero">
+    <h1>{{ site.title | split: " - " | first }}</h1>
+    <p>{{ site.description }}</p>
+    <div class="cta-buttons">
+        <a href="#projects" class="button">View My Projects</a>
+        <a href="#contact" class="button">Contact Me</a>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>A results-driven engineer and leader with extensive experience directing complex projects from concept to final delivery. Proven ability to integrate software, hardware, and network systems to solve critical operational challenges in manufacturing and agriculture. Adept at financial management, vendor coordination, and team leadership, with a core strength in creative problem-solving and using data-driven approaches to enhance productivity, reduce costs, and drive business growth.</p>
+    <!-- Placeholder for professional headshot -->
+    <div class="headshot-placeholder"></div>
+</section>
+
+<section id="skills">
+    <h2>Core Competencies</h2>
+    <div class="skills-category">
+        <h3>Technical Skills</h3>
+        <ul>
+            <li>Programming: C++, Python, Java, SQL, Industrial Control Systems (PLC) Programming</li>
+            <li>Databases: Microsoft SQL Server Design & Maintenance</li>
+            <li>Data Visualization: Interactive Dashboards, Automated Graphing</li>
+            <li>IoT Systems: End-to-End Development (Sensor to Cloud), Network Communication Protocols</li>
+            <li>Hardware Integration: Sensors, Cameras, Raspberry Pi, Arduino</li>
+            <li>Engineering & Design: Control Systems, Process Automation, 3D Design (CAD), Simulation & Modeling</li>
+        </ul>
+    </div>
+    <div class="skills-category">
+        <h3>Project & Business Management</h3>
+        <ul>
+            <li>End-to-End Project Leadership</li>
+            <li>Team & Vendor Management</li>
+            <li>Business Operations & Strategy</li>
+            <li>Financial Management (P&L, Budgeting)</li>
+            <li>Client & Stakeholder Communication</li>
+            <li>Technical & Business Documentation (Project Proposals, User/System Manuals)</li>
+            <li>Data-Driven Decision Making</li>
+        </ul>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-gallery">
+        <!-- Project cards will be dynamically generated or added here -->
+        <div class="project-card">
+            <h3>Predictive Vibration Monitoring System for Firing Machine Pusher</h3>
+            <p>Developed a system to prevent product loss and unplanned downtime by monitoring vibrations in firing machine pushers.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="project-card">
+            <h3>Automated Optical Inspection System for Quality Control</h3>
+            <p>Implemented an advanced system to identify over 40 distinct product defects, reducing labor costs and human error.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="project-card">
+            <h3>Autonomous Aquaculture Monitoring System</h3>
+            <p>Directed the development of a robust system for real-time water quality data, preventing yield loss for shrimp farmers.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p>Connect with me on <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a></p>
+</section>
