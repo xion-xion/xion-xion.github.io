@@ -466,3 +466,80 @@ footer a:hover {
     margin: 0.25rem;
 }
 
+/* Module Grid for Smart Factory Page */
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.module-card {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.module-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.module-card h4 {
+    margin-top: 0;
+    color: #2c5282;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.module-card p {
+    margin-bottom: 0.5rem;
+}
+
+.hardware-grid.two-column-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Dashboard Gallery for Smart Factory Page */
+.dashboard-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.dashboard-item {
+    text-align: center;
+}
+
+.dashboard-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.dashboard-item .caption {
+    font-size: 1rem;
+    color: #4a5568;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Responsive Module Grid */
+@media (max-width: 768px) {
+    .module-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hardware-grid.two-column-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
