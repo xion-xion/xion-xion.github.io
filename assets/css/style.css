@@ -82,8 +82,34 @@ h2 {
 
 /* Hero Section */
 #hero {
-    text-align: center;
     padding: 2rem 0;
+}
+
+#hero .hero-container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#hero .hero-text {
+    flex: 1;
+    text-align: left;
+}
+
+#hero .hero-image {
+    flex-basis: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-image img {
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
 }
 
 #hero p {
@@ -211,4 +237,21 @@ footer a {
 
 footer a:hover {
     color: #2b6cb0;
+}
+
+/* Responsive Hero */
+@media (max-width: 768px) {
+    #hero .hero-container {
+        flex-direction: column;
+    }
+
+    #hero .hero-text {
+        text-align: center;
+        order: 2; /* Text comes after the image */
+    }
+
+    #hero .hero-image {
+        order: 1; /* Image comes first */
+        margin-bottom: 2rem;
+    }
 }
