@@ -1,12 +1,54 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
-</html>
+---
+layout: default
+title: "Project Title"
+---
+
+<section class="project-hero">
+    <h1>Project Title</h1>
+    <p class="role">Your Role | Timeline</p>
+    <div class="tech-stack-display">
+        <div class="tech-stack-row">
+            <span class="tech-label">Category:</span>
+            <span class="tech-tag">Skill / Technology 1</span>
+            <span class="tech-tag">Skill / Technology 2</span>
+            <span class="tech-tag">Skill / Technology 3</span>
+        </div>
+        <!-- Add more tech-stack-row divs for other categories as needed -->
+    </div>
+</section>
+
+<div class="project-feature-image">
+    <img src="{{ site.baseurl }}/assets/images/path/to/your/feature-image.jpg" alt="Feature image of the project">
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <h2>Project Summary</h2>
+        <p>A brief summary of the project, its goals, and the final outcome.</p>
+
+        <hr>
+
+        <div class="feature-row">
+            <div class="feature-image">
+                <img src="{{ site.baseurl }}/assets/images/path/to/your/content-image-1.jpg" alt="Descriptive alt text for the image">
+            </div>
+            <div class="feature-text">
+                <h3>Feature or Aspect 1</h3>
+                <p>Describe the first key feature or aspect of the project here. Explain the challenge and the solution.</p>
+            </div>
+        </div>
+
+        <div class="feature-row feature-row--reverse">
+            <div class="feature-image">
+                <img src="{{ site.baseurl }}/assets/images/path/to/your/content-image-2.jpg" alt="Descriptive alt text for the image">
+            </div>
+            <div class="feature-text">
+                <h3>Feature or Aspect 2</h3>
+                <p>Describe the second key feature or aspect of the project here, using the reversed layout.</p>
+            </div>
+        </div>
+
+        <!-- Add more content sections like hardware-grid, dashboard-gallery, or more feature-rows as needed -->
+
+    </div>
+</section>
