@@ -573,3 +573,24 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* App Gallery for Project Pages */
+.app-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.app-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 480px) {
+    .app-gallery {
+        grid-template-columns: 1fr;
+    }
+}
