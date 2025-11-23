@@ -80,6 +80,8 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* --- Main Page Sections --- */
+
 /* Hero Section */
 #hero {
     padding: 2rem 0;
@@ -174,13 +176,6 @@ h2 {
     font-weight: 500;
 }
 
-/* Responsive grid for mobile */
-@media (max-width: 768px) {
-    .skills-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 /* Project Gallery */
 .project-gallery {
     display: grid;
@@ -212,51 +207,8 @@ h2 {
     text-align: center;
 }
 
-/* Footer */
-footer {
-    text-align: center;
-    padding: 2rem 0;
-    margin-top: 3rem;
-    background-color: #e2e8f0;
-    color: #4a5568;
-}
+/* --- General Project Page Styles --- */
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-    margin-top: 1rem;
-}
-
-footer a {
-    color: #4a5568;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #2b6cb0;
-}
-
-/* Responsive Hero */
-@media (max-width: 768px) {
-    #hero .hero-container {
-        flex-direction: column;
-    }
-
-    #hero .hero-text {
-        text-align: center;
-        order: 2; /* Text comes after the image */
-    }
-
-    #hero .hero-image {
-        order: 1; /* Image comes first */
-        margin-bottom: 2rem;
-    }
-}
-
-/* Project Page Styling */
 .project-hero {
     text-align: center;
     padding: 2rem 0;
@@ -322,6 +274,88 @@ footer a:hover {
     margin-bottom: 0.5rem;
 }
 
+/* --- Footer --- */
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 3rem;
+    background-color: #e2e8f0;
+    color: #4a5568;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+footer a {
+    color: #4a5568;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2b6cb0;
+}
+
+/* --- Responsive Styles --- */
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #hero .hero-container {
+        flex-direction: column;
+    }
+
+    #hero .hero-text {
+        text-align: center;
+        order: 2; /* Text comes after the image */
+    }
+
+    #hero .hero-image {
+        order: 1; /* Image comes first */
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* --- Component & Page-Specific Styles --- */
+
+/* Tech Stack Display for Project Pages */
+.tech-stack-display {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.tech-stack-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap; /* Allow tags to wrap on smaller screens */
+}
+
+.tech-label {
+    font-weight: bold;
+    color: #2c5282;
+    margin-right: 1rem;
+}
+
+.tech-tag {
+    background-color: #e2e8f0;
+    color: #2d3748;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0.25rem;
+}
 
 /* Responsive Video Container */
 .video-container {
@@ -342,6 +376,43 @@ footer a:hover {
     height: 100%;
 }
 
+/* Feature Row for Project Pages (Zig-Zag Layout) */
+.feature-row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.feature-row .feature-image,
+.feature-row .feature-text {
+    flex: 1;
+}
+
+.feature-row .feature-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.feature-row.feature-row--reverse {
+    flex-direction: row-reverse;
+}
+
+.feature-row h4 {
+    font-size: 1.5rem;
+    color: #2c5282;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .feature-row,
+    .feature-row.feature-row--reverse {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /* Hardware Grid for Project Pages */
 .hardware-grid {
@@ -382,7 +453,10 @@ footer a:hover {
     color: #2c5282;
 }
 
-/* Responsive Hardware Grid */
+.hardware-grid.two-column-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 @media (max-width: 992px) {
     .hardware-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -393,77 +467,9 @@ footer a:hover {
     .hardware-grid {
         grid-template-columns: 1fr;
     }
-}
-
-
-/* Feature Row for Project Pages (Zig-Zag Layout) */
-.feature-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin-bottom: 3rem;
-}
-
-.feature-row .feature-image,
-.feature-row .feature-text {
-    flex: 1;
-}
-
-.feature-row .feature-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.feature-row.feature-row--reverse {
-    flex-direction: row-reverse;
-}
-
-.feature-row h4 {
-    font-size: 1.5rem;
-    color: #2c5282;
-    margin-bottom: 1rem;
-}
-
-/* Responsive Feature Row */
-@media (max-width: 768px) {
-    .feature-row,
-    .feature-row.feature-row--reverse {
-        flex-direction: column;
-        text-align: center;
+    .hardware-grid.two-column-grid {
+        grid-template-columns: 1fr;
     }
-}
-
-
-/* Tech Stack Display for Project Pages */
-.tech-stack-display {
-    text-align: center;
-    margin: 1.5rem 0;
-}
-
-.tech-stack-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 0.75rem;
-    flex-wrap: wrap; /* Allow tags to wrap on smaller screens */
-}
-
-.tech-label {
-    font-weight: bold;
-    color: #2c5282;
-    margin-right: 1rem;
-}
-
-.tech-tag {
-    background-color: #e2e8f0;
-    color: #2d3748;
-    padding: 0.35rem 0.75rem;
-    border-radius: 9999px;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin: 0.25rem;
 }
 
 /* Module Grid for Smart Factory Page */
@@ -500,10 +506,11 @@ footer a:hover {
     margin-bottom: 0.5rem;
 }
 
-.hardware-grid.two-column-grid {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 768px) {
+    .module-grid {
+        grid-template-columns: 1fr;
+    }
 }
-
 
 /* Dashboard Gallery for Smart Factory Page */
 .dashboard-gallery {
@@ -532,18 +539,6 @@ footer a:hover {
     margin: 0 auto;
 }
 
-/* Responsive Module Grid */
-@media (max-width: 768px) {
-    .module-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .hardware-grid.two-column-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-
 /* Installation Grid */
 .installation-grid {
     display: grid;
@@ -567,7 +562,6 @@ footer a:hover {
     display: block;
 }
 
-/* Responsive layout for the installation grid */
 @media (max-width: 768px) {
     .installation-grid {
         grid-template-columns: 1fr;
