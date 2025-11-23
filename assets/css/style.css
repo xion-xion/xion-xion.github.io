@@ -543,3 +543,33 @@ footer a:hover {
     }
 }
 
+
+/* Installation Grid */
+.installation-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.install-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden; /* To ensure the image corners are rounded */
+}
+
+.install-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Responsive layout for the installation grid */
+@media (max-width: 768px) {
+    .installation-grid {
+        grid-template-columns: 1fr;
+    }
+}
