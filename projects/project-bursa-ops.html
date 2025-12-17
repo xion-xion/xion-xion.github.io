@@ -1,0 +1,72 @@
+---
+layout: default
+title: "Bursa Ops: Financial Data Automation"
+---
+
+<section class="project-hero">
+    <h1>Bursa Ops: Financial Data Automation</h1>
+    <p class="role">Sole Developer | Python Automation | 2025</p>
+    <div class="tech-stack-display">
+        <div class="tech-stack-row">
+            <span class="tech-label">Core:</span>
+            <span class="tech-tag">Python 3</span>
+            <span class="tech-tag">BeautifulSoup4</span>
+            <span class="tech-tag">Web Scraping</span>
+        </div>
+        <div class="tech-stack-row">
+            <span class="tech-label">Architecture:</span>
+            <span class="tech-tag">JSON Caching</span>
+            <span class="tech-tag">Resilient Pipeline</span>
+            <span class="tech-tag">CLI Tool</span>
+        </div>
+    </div>
+</section>
+
+<div class="project-feature-image">
+    <img src="{{ site.baseurl }}/assets/images/bursa-ops/console_exp.png" alt="Bursa Ops CLI Interface running in terminal" style="border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);">
+    <p style="text-align: center; font-size: 0.9rem; color: #666; margin-top: 10px;">The CLI interface handling automated retries, PDF validation, and logging in real-time.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <h2>Project Summary</h2>
+        <p>A robust Python automation tool designed to streamline the extraction of financial annual reports from Bursa Malaysia. It solves the issue of manual data collection by providing an intelligent scraping pipeline that respects server limits, handles network instability, and automatically organizes data for analysis.</p>
+
+        <hr>
+
+        <div class="feature-row">
+            <div class="feature-image">
+                <img src="{{ site.baseurl }}/assets/images/bursa-ops/Folder_Structure_2.png" alt="Standardized PDF Naming" style="border: 1px solid #eee;">
+            </div>
+            <div class="feature-text">
+                <h3>Intelligent File Renaming</h3>
+                <p>Raw downloads from the web often have messy, non-descriptive filenames. I implemented a parsing logic that reads the metadata and standardizes every file to <code>COMPANY_TYPE_YEAR.pdf</code> (e.g., <code>MRDIY_AR_2023.pdf</code>). This ensures that files are instantly searchable and sortable.</p>
+            </div>
+        </div>
+
+        <div class="feature-row feature-row--reverse">
+            <div class="feature-image">
+                <img src="{{ site.baseurl }}/assets/images/bursa-ops/download_json.png" alt="JSON Caching Logic" style="border: 1px solid #eee;">
+            </div>
+            <div class="feature-text">
+                <h3>State Management & Caching</h3>
+                <p>To prevent IP bans and reduce bandwidth, the system maintains a persistent <code>json</code> state file. Before requesting a file, it checks this local registry. If a report is already downloaded, it is intelligently skipped, making subsequent runs lightning fast.</p>
+            </div>
+        </div>
+
+        <div class="feature-row">
+            <div class="feature-image">
+                <img src="{{ site.baseurl }}/assets/images/bursa-ops/Folder_Structure_1.png" alt="Organizational Hierarchy" style="border: 1px solid #eee;">
+            </div>
+            <div class="feature-text">
+                <h3>Scalable Directory Architecture</h3>
+                <p>The system is designed to handle multiple companies simultaneously. It automatically generates a clean directory hierarchy, creating dedicated folders for each company code (e.g., <code>Report/GENTING</code>, <code>Report/MRDIY</code>). This allows users to batch process hundreds of reports without clutter.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="https://github.com/xion-xion/bursa-ops" target="_blank" class="button">View Source Code on GitHub</a>
+        </div>
+
+    </div>
+</section>
