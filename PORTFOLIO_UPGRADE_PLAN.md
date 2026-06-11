@@ -26,8 +26,9 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *About Me Rebranding:* Realigned biography to emphasize System Integration engineering and transition from Aerospace to IIoT.
     *   *Skills Reorganization:* Regrouped competencies into: IIoT & Automation, Software & Data, Hardware & Systems, and Project Leadership.
     *   *Project Cards:* Added visual colored tags/badges representing specific project achievements (e.g., *75% Hardware Savings*, *$80k Revenue Protected*).
-    *   *Education & Credentials:* Added details of the B.Eng. in Aerospace Engineering from UPM and manufacturing internship at Jecmetal Industries.
-    *   *CSS Styling:* Appended custom CSS classes to `assets/css/style.css` to render the impact bar, badges, and credentials cards.
+    *   *Bursa Ops Card:* Re-styled the personal endeavors card to Layout 1 with custom badges: `Python`, `Web Scraping`, `Data Automation`, `Financial Analysis`, and `Agentic Coding`.
+    *   *Homepage Cleaning:* Removed the *Education & Credentials* section from the homepage as requested.
+    *   *CSS Styling:* Appended custom CSS classes to `assets/css/style.css` to render the impact bar and badges.
 
 ---
 
