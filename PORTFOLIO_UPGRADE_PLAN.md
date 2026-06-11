@@ -1,10 +1,37 @@
 # Portfolio Improvement Plan - Khairi Samsudin
 
-This document outlines a strategic plan to upgrade the personal portfolio of Muhammad Khairi bin Samsudin, transforming it from a general showcase into a high-impact "System Integration & IIoT Specialist" brand.
+## 0. About This Repository (AI Orientation Guide)
+This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin Samsudin**, hosted at [xion-xion.github.io](https://xion-xion.github.io/).
+*   **Target Profile:** "System Integration & IIoT Specialist" (transitioning from a general "IoT Enthusiast" brand).
+*   **Core Source Material:** Detailed resumes, business outcomes, technical stacks, and metrics are documented in [info/Khairi_Information.md](file:///home/xion/xion-xion.github.io/info/Khairi_Information.md). Always refer to this file as the source of truth for Khairi's professional experience.
+*   **Key Workspace Files:**
+    *   [index.html](file:///home/xion/xion-xion.github.io/index.html): Homepage containing the Hero tagline, Impact Bar, About Me, Skills Grid, Projects gallery, Credentials, and Contact form.
+    *   [_config.yml](file:///home/xion/xion-xion.github.io/_config.yml): Configuration file governing Jekyll metadata (site title, global description/tagline, social links).
+    *   [assets/css/style.css](file:///home/xion/xion-xion.github.io/assets/css/style.css): Custom CSS styles for layout, impact stats, buttons, grids, and responsive components.
+    *   [projects/](file:///home/xion/xion-xion.github.io/projects): HTML pages for individual project breakdowns:
+        *   [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) (Smart Factory Ecosystem - E-Apaci Sdn Bhd)
+        *   [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) (Smart Aquaculture Node-to-Cloud)
+        *   [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) (Autonomous Drone Platform)
+        *   [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) (Energy Eye Commercial IoT Product)
+        *   [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) (SK3 Kyodai / Jom! Laundry Co-founder)
+        *   [project-bursa-ops.html](file:///home/xion/xion-xion.github.io/projects/project-bursa-ops.html) (Bursa Ops CLI - Financial Data Automation)
 
 ---
 
-## 1. The Strategy: "The Engineering of Results"
+## 1. Project Status & Completed Work
+*   **Status Date:** June 11, 2026
+*   **Phase 1 (Completed & Committed): Core Layout & Homepage Rebranding**
+    *   *Site Tagline Update:* Changed description in `_config.yml` to: *"Multi-Disciplinary Engineer | Bridging Hardware & Software | Making Machines Talk & Think | System Integration & IIoT Specialist"*.
+    *   *Homepage Impact Bar:* Added high-visibility stats showing key outcomes (100% Data Automation, RM 350k Revenue Protected, 15% Energy Reduction, $15k/mo Breakage Identified) on the homepage.
+    *   *About Me Rebranding:* Realigned biography to emphasize System Integration engineering and transition from Aerospace to IIoT.
+    *   *Skills Reorganization:* Regrouped competencies into: IIoT & Automation, Software & Data, Hardware & Systems, and Project Leadership.
+    *   *Project Cards:* Added visual colored tags/badges representing specific project achievements (e.g., *75% Hardware Savings*, *RM 350k Revenue Protected*).
+    *   *Education & Credentials:* Added details of the B.Eng. in Aerospace Engineering from UPM and manufacturing internship at Jecmetal Industries.
+    *   *CSS Styling:* Appended custom CSS classes to `assets/css/style.css` to render the impact bar, badges, and credentials cards.
+
+---
+
+## 2. The Strategy: "The Engineering of Results"
 Khairi's competitive edge is **System Integration with measurable business results (ROI)**. 
 *   **Core Theme:** "Bridging Silos, Optimizing Systems, Delivering ROI."
 *   **Focus:** Highlight not just *what* was built, but the *problems solved* (e.g., hours saved per shift, revenue protected, capital costs reduced).
@@ -12,30 +39,9 @@ Khairi's competitive edge is **System Integration with measurable business resul
 
 ---
 
-## 2. Page-by-Page Upgrade Specifications
+## 3. Remaining Page-by-Page Upgrade Specifications
 
-### A. Home Page ([index.html](file:///home/xion/xion-xion.github.io/index.html))
-*   **Hero Section:** 
-    *   *Change:* Sharpen the title and add a "Value Hook."
-    *   *Proposed Title:* "Multi-Disciplinary Engineer | Bridging Hardware & Software | Making Machines Talk & Think | System Integration & IIoT Specialist"
-    *   *New Concept:* **The Impact Bar.** Add a high-visibility stats bar below the title showing key metrics: 
-        *   `100% Data Automation` | `RM 350k Revenue Protected` | `15% Energy Reduction` | `$15k/mo Breakage Identified`
-*   **About Me:** 
-    *   *Change:* Shift the tone from "tinkerer" to "Strategic Engineer." Emphasize the transition from Aerospace Engineering and Drone Startups to Enterprise IIoT and industrial control.
-*   **Core Competencies:** 
-    *   *Change:* Reorganize into four high-impact categories:
-        1.  **IIoT & Automation:** Niagara Framework (Tridium), PLC Programming, Modbus, BACnet, I2C, LoRa, JACE controllers.
-        2.  **Software & Data:** Python, C++, Java, Microsoft SQL Server, Data Visualization.
-        3.  **Hardware & Systems:** Circuit Design & Prototyping, custom PCB, Solar Power Systems, CAD design, sensors.
-        4.  **Project Leadership:** End-to-End Project Lead, Vendor/Stakeholder Management, Business Operations (P&L, Budgeting), ROI Analysis.
-*   **Education & Credentials Section (New):**
-    *   *Change:* Add UPM Aerospace Engineering degree (CGPA 3.39), including the Final Year Project (Python aerodynamic simulations) and the manufacturing internship at Jecmetal Industries.
-*   **Professional Projects Gallery:**
-    *   *Change:* Add "Impact Badges" to cards (e.g., "RM 350k Saved", "75% Cost Reduction").
-
----
-
-### B. Project Pages Expansion ([projects/](file:///home/xion/xion-xion.github.io/projects))
+### A. Project Pages Expansion ([projects/](file:///home/xion/xion-xion.github.io/projects))
 
 #### 1. Smart Factory Ecosystem ([project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html))
 *   **Concept:** Introduce an **Interactive Tabbed Layout** to cleanly display the 11 E-Apaci project phases without overwhelming the reader.
@@ -82,15 +88,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
 
 ---
 
-## 3. Implementation Plan (Step-by-Step)
-
-### Phase 1: Core Layout & Homepage Rebranding
-1.  Update [_config.yml](file:///home/xion/xion-xion.github.io/_config.yml) values to position as "System Integration & IIoT Specialist".
-2.  Rewrite [index.html](file:///home/xion/xion-xion.github.io/index.html) to:
-    *   Update hero copy and add the **Impact Bar**.
-    *   Refine Skills list.
-    *   Add **Education & Credentials** section.
-    *   Incorporate Impact Badges on project cards.
+## 4. Remaining Implementation Steps
 
 ### Phase 2: Technical Deep-Dive & Interactive UI (Project Pages)
 1.  Implement the **Interactive Tabbed Layout** in [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) and add all 11 E-Apaci project breakdowns.
@@ -100,13 +98,13 @@ Khairi's competitive edge is **System Integration with measurable business resul
 5.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
 
 ### Phase 3: Styling, SEO, & Visual Assets
-1.  Add CSS styles for `.metric-badge`, `.impact-bar`, and the tab switcher to `assets/css/` style files.
+1.  Add CSS styles for the tab switcher and custom UI items to style files.
 2.  Create SVG wireframes/diagrams for the network layout and the drone docking contacts.
 3.  Add SEO Open Graph metadata to page headers.
 
 ---
 
-## 4. Visual Layout Blueprint
+## 5. Visual Layout Blueprint
 ```text
 +-------------------------------------------------------------+
 |               Muhammad Khairi | IIoT Specialist            |
