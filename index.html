@@ -5,18 +5,30 @@ title: Home
 
 <section id="hero">
     <div class="hero-container">
-        <div class="hero-text">
-            <h1>{{ site.title | split: " - " | first }}</h1>
-            <p>{{ site.description }}</p>
-            
-            <!-- Upgraded Impact Bar -->
+        <!-- Row 1: Name, Tagline, Profile Picture, and CTA -->
+        <div class="hero-main-row">
+            <div class="hero-text">
+                <h1>{{ site.title | split: " - " | first }}</h1>
+                <p>{{ site.description }}</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="button">View My Projects</a>
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Profile Image">
+            </div>
+        </div>
+        
+        <!-- Row 2: Achievements (Impact Bar) -->
+        <div class="hero-impact-row">
             <div class="impact-bar">
                 <div class="impact-item">
                     <span class="impact-number">100%</span>
                     <span class="impact-label">Data Automation</span>
                 </div>
                 <div class="impact-item">
-                    <span class="impact-number">RM 350k</span>
+                    <span class="impact-number">$80k</span>
                     <span class="impact-label">Revenue Protected</span>
                 </div>
                 <div class="impact-item">
@@ -28,14 +40,6 @@ title: Home
                     <span class="impact-label">Breakage Identified</span>
                 </div>
             </div>
-
-            <div class="cta-buttons">
-                <a href="#projects" class="button">View My Projects</a>
-                <a href="#contact" class="button">Contact Me</a>
-            </div>
-        </div>
-        <div class="hero-image">
-            <img src="assets/images/profile.jpg" alt="Profile Image">
         </div>
     </div>
 </section>
@@ -114,7 +118,7 @@ title: Home
             <a href="projects/project-energy-eye.html" class="button">Learn More</a>
         </div>
         <div class="project-card">
-            <span class="metric-badge accent">RM 350k Revenue Protected</span>
+            <span class="metric-badge accent">$80k Revenue Protected</span>
             <span class="metric-badge green">100% Data Automation</span>
             <h3>Integrated Smart Factory Ecosystem (IIoT)</h3>
             <p>Architected a centralized Niagara Supervisor ecosystem, integrating 28 PLCs, non-invasive status relays, custom Java watchers, and vibration tracking to eliminate shift logging and manual errors.</p>

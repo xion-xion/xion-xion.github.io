@@ -22,10 +22,10 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
 *   **Status Date:** June 11, 2026
 *   **Phase 1 (Completed & Committed): Core Layout & Homepage Rebranding**
     *   *Site Tagline Update:* Changed description in `_config.yml` to: *"Multi-Disciplinary Engineer | Bridging Hardware & Software | Making Machines Talk & Think | System Integration & IIoT Specialist"*.
-    *   *Homepage Impact Bar:* Added high-visibility stats showing key outcomes (100% Data Automation, RM 350k Revenue Protected, 15% Energy Reduction, $15k/mo Breakage Identified) on the homepage.
+    *   *Homepage Impact Bar:* Added high-visibility stats showing key outcomes (100% Data Automation, $80k Revenue Protected, 15% Energy Reduction, $15k/mo Breakage Identified) on the homepage.
     *   *About Me Rebranding:* Realigned biography to emphasize System Integration engineering and transition from Aerospace to IIoT.
     *   *Skills Reorganization:* Regrouped competencies into: IIoT & Automation, Software & Data, Hardware & Systems, and Project Leadership.
-    *   *Project Cards:* Added visual colored tags/badges representing specific project achievements (e.g., *75% Hardware Savings*, *RM 350k Revenue Protected*).
+    *   *Project Cards:* Added visual colored tags/badges representing specific project achievements (e.g., *75% Hardware Savings*, *$80k Revenue Protected*).
     *   *Education & Credentials:* Added details of the B.Eng. in Aerospace Engineering from UPM and manufacturing internship at Jecmetal Industries.
     *   *CSS Styling:* Appended custom CSS classes to `assets/css/style.css` to render the impact bar, badges, and credentials cards.
 
@@ -57,7 +57,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
     *   **Tab 3: Equipment Health & Predictive Maintenance**
         *   *Machine Status Monitoring (Phase 1):* Non-invasive relay retrofitting on 144 panel lights. Slashed response times from hours to under 5 minutes.
         *   *Predictive Vibration Monitoring (Pusher & scaled Pump/Structure):* Modbus vibration sensors. Saved $300-$1,200 per pusher anomaly; WhatsApp alerts on high-risk pumps prevented a repeat of a 3-week shutdown.
-        *   *Automated Heat Curve Validation:* Watchdog Java program. Validates 20+ zones against authorized DB, safeguarding RM 250k - 350k per incident.
+        *   *Automated Heat Curve Validation:* Watchdog Java program. Validates 20+ zones against authorized DB, safeguarding $80k+ per incident.
 
 #### 2. Aquaculture Ecosystem ([project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html))
 *   **Change:** Emphasize the software and reliability details.
@@ -114,7 +114,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
 |   "Bridging physical & digital silos to deliver real ROI"   |
 |                                                             |
 |   [ IMPACT STATS BAR ]                                      |
-|   ( 100% Automation ) ( RM 350k Protected ) ( 15% Energy Saved )|
+|   ( 100% Automation ) ( $80k Protected ) ( 15% Energy Saved )|
 +-------------------------------------------------------------+
 | ABOUT ME (Strategic focus: Aerospace to IIoT Transition)   |
 +-------------------------------------------------------------+
