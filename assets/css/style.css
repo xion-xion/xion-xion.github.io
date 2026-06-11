@@ -152,8 +152,8 @@ h2 {
 
 /* Skills Section - Grid */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
 
@@ -717,11 +717,23 @@ footer a:hover {
 .skill-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
 }
 
 .skill-card:hover {
     border-color: #bee3f8;
+}
+
+.skill-card-info {
+    flex: 1;
+}
+
+.skill-card-details {
+    flex: 2;
+    display: flex;
+    width: 100%;
 }
 
 .skill-card-header {
@@ -751,18 +763,18 @@ footer a:hover {
     font-size: 0.9rem;
     color: #718096;
     margin-top: 0;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0;
     line-height: 1.4;
 }
 
 .skill-groups {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: auto; /* Push tags to bottom of card */
+    width: 100%;
+    gap: 2rem;
 }
 
 .skill-group {
+    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 0.35rem;
@@ -774,6 +786,20 @@ footer a:hover {
     color: #4a5568;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .skill-card-details {
+        width: 100%;
+    }
+    .skill-groups {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 }
 
 /* Languages Bar styling */
