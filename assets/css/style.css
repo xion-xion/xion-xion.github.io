@@ -713,3 +713,114 @@ footer a:hover {
     color: #2d3748;
 }
 
+/* Core Skill Layout Upgrades */
+.skill-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-card:hover {
+    border-color: #bee3f8;
+}
+
+.skill-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.skill-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+    padding: 0.5rem;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.skill-card-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.skill-desc {
+    font-size: 0.9rem;
+    color: #718096;
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+}
+
+.skill-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: auto; /* Push tags to bottom of card */
+}
+
+.skill-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.group-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4a5568;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Languages Bar styling */
+.languages-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.languages-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #2c5282;
+}
+
+.languages-header h4 {
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.languages-tags {
+    display: flex;
+    gap: 1rem;
+}
+
+.lang-tag {
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    color: #2d3748;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+}
+
+@media (max-width: 600px) {
+    .languages-bar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+}
+
