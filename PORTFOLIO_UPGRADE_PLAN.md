@@ -31,6 +31,10 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *CSS Styling:* Appended custom CSS classes to `assets/css/style.css` to render the impact bar and badges.
 *   **Phase 2 Stage 1 (Completed & Committed): Smart Factory Hero Section**
     *   *Hero & KPI Grid:* Upgraded the introduction, metadata, KPI results ($50k+ revenue safeguarded, etc.), and skills taxonomy grid on the Smart Factory project page.
+*   **Phase 2 Stage 2 (Completed, Committed & Pushed): Smart Factory Skills & Diagram Upgrades**
+    *   *Skills Taxonomy Expansion:* Added 15 new project-specific hardware, software, and leadership skills to the taxonomy grid on the Smart Factory page based on E-Apaci project histories in Khairi_Information.md.
+    *   *Tag Visualization (Suggestion 1):* Updated CSS to render the structured taxonomy tags in a uniform vertical column stack with hover transitions for a clean layout.
+    *   *Architecture Diagram Update:* Moved IIoT Architecture.png from /info to assets and updated the main image on the Smart Factory project page, removing the legacy placeholder diagram.
 
 ---
 
@@ -94,14 +98,11 @@ Khairi's competitive edge is **System Integration with measurable business resul
 ## 4. Remaining Implementation Steps
 
 ### Phase 2: Technical Deep-Dive & Interactive UI (Project Pages)
-1.  Fix the visualization of the skills (the structured technology taxonomy grid) on the Smart Factory page.
-    *   *Reminder:* User to take a screenshot of the skills section in the web browser and share it with the AI to verify the visual presentation.
-2.  Update the architecture diagram/image for the Smart Factory Ecosystem.
-3.  Implement the **Interactive Tabbed Layout** in [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) and add all 11 E-Apaci project breakdowns.
-4.  Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
-5.  Update [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) with mechanical/hardware achievements (battery fabrication, multispectral array).
-6.  Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
-7.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
+1.  Implement the **Interactive Tabbed Layout** in [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) and add all 11 E-Apaci project breakdowns.
+2.  Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
+3.  Update [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) with mechanical/hardware achievements (battery fabrication, multispectral array).
+4.  Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
+5.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
 
 ### Phase 3: Styling, SEO, & Visual Assets
 1.  Add CSS styles for the tab switcher and custom UI items to style files.
