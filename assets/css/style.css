@@ -897,3 +897,171 @@ footer a:hover {
     }
 }
 
+/* --- Premium Project Page Styles --- */
+
+.project-category-badge {
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+    padding: 0.35rem 0.85rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.project-hero {
+    text-align: left;
+    padding: 3rem 0 2rem 0;
+}
+
+.project-hero h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin: 0 0 1rem 0;
+    color: #1a365d;
+    font-weight: 800;
+}
+
+.project-subtitle {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #4a5568;
+    max-width: 850px;
+    margin-bottom: 2rem;
+}
+
+.project-metadata-bar {
+    display: flex;
+    gap: 2.5rem;
+    padding: 1.25rem 0;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.meta-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #718096;
+    font-weight: bold;
+}
+
+.meta-val {
+    font-size: 1rem;
+    color: #2d3748;
+    font-weight: 600;
+}
+
+/* KPI Cards Grid */
+.project-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+    margin-bottom: 3rem;
+}
+
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
+    border-top: 4px solid #2b6cb0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.05);
+}
+
+.kpi-number {
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #2b6cb0;
+    line-height: 1.1;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.kpi-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1a202c;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.kpi-desc {
+    font-size: 0.85rem;
+    color: #4a5568;
+    line-height: 1.45;
+    margin: 0;
+}
+
+/* Structured Tech Taxonomy Grid */
+.tech-tax-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.tech-tax-card {
+    background-color: #f7fafc;
+    border: 1px solid #edf2f7;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.tech-tax-card h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #2c5282;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+}
+
+.tech-tax-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* Responsive Overrides */
+@media (max-width: 992px) {
+    .project-kpi-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tech-tax-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .project-kpi-grid {
+        grid-template-columns: 1fr;
+    }
+    .tech-tax-grid {
+        grid-template-columns: 1fr;
+    }
+    .project-hero h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
