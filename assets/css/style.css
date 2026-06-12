@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 2rem auto;
     padding: 0 1rem;
 }
@@ -22,7 +22,7 @@ header {
 }
 
 header nav {
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 1rem;
     display: flex;
@@ -923,6 +923,12 @@ footer a:hover {
     margin: 0 0 1rem 0;
     color: #1a365d;
     font-weight: 800;
+}
+
+@media (min-width: 992px) {
+    .project-hero h1 {
+        white-space: nowrap;
+    }
 }
 
 .project-subtitle {
