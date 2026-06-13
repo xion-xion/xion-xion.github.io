@@ -3,7 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Primary SEO Meta Tags -->
+    {% if page.title %}
+    <title>{{ page.title }} | Muhammad Khairi</title>
+    {% else %}
     <title>{{ site.title }}</title>
+    {% endif %}
+    
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% else %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+    
+    <!-- Open Graph / Facebook / LinkedIn Meta Tags -->
+    <meta property="og:type" content="website">
+    {% if page.url %}
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    {% else %}
+    <meta property="og:url" content="{{ '/' | absolute_url }}">
+    {% endif %}
+    
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }} | Muhammad Khairi">
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}">
+    {% endif %}
+    
+    {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}">
+    {% else %}
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+    
+    <!-- Preview Image: Fallback to Smart Factory Architecture banner -->
+    {% if page.og_image %}
+    <meta property="og:image" content="{{ page.og_image | absolute_url }}">
+    {% else %}
+    <meta property="og:image" content="{{ '/assets/images/smart-factory/iiot-architecture.png' | absolute_url }}">
+    {% endif %}
+    
+    <meta property="og:site_name" content="Muhammad Khairi Portfolio">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }} | Muhammad Khairi">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.og_image %}
+    <meta name="twitter:image" content="{{ page.og_image | absolute_url }}">
+    {% else %}
+    <meta name="twitter:image" content="{{ '/assets/images/smart-factory/iiot-architecture.png' | absolute_url }}">
+    {% endif %}
+
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
