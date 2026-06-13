@@ -573,27 +573,41 @@ footer a:hover {
 .dashboard-gallery {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2.5rem;
+    gap: 2rem;
     margin-top: 2rem;
 }
 
 .dashboard-item {
-    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.75rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+    text-align: left;
+}
+
+.dashboard-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.05);
+    border-color: #cbd5e0;
 }
 
 .dashboard-item img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #edf2f7;
+    display: block;
 }
 
 .dashboard-item .caption {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #4a5568;
-    max-width: 80%;
-    margin: 0 auto;
+    line-height: 1.55;
+    margin: 0;
+    max-width: 100%;
 }
 
 /* Installation Grid */
