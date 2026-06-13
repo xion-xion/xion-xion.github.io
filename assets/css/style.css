@@ -541,6 +541,7 @@ footer a:hover {
     min-height: 0;
     object-fit: cover;
     margin-bottom: 0;
+    aspect-ratio: auto;
 }
 
 .hardware-grid.two-column-grid {
