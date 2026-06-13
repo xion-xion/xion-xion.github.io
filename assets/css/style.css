@@ -498,8 +498,7 @@ footer a:hover {
 
 .hardware-card img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
+    height: auto;
     border-radius: 6px;
     margin-bottom: 1rem;
 }
