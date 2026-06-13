@@ -50,10 +50,12 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *Custom Mechanical & Hardware R&D:* Added a detailed Custom Mechanical & Hardware R&D section highlighting custom Lithium-ion pack fabrication, custom multispectral camera payload casing, and physical landing gear contact charging pads.
     *   *Two Applications:* Updated palm oil disease inspection and added the shrimp pond aerator placement application with outcome-focused challenge, solution, and impact metrics.
     *   *Clean layout:* Removed the legacy Project Summary section to match the Aquaculture layout.
-
-
-
-
+*   **Phase 2 Stage 6 (Completed): Energy Eye Commercial IoT Upgrades**
+    *   *Hero & KPI Grid:* Upgraded the hero section with a category badge, outcomes-focused subtitle, and metadata bar. Added a 4-card KPI grid highlighting custom PCB optical pulse capture, Sigfox/e-SIM zero-infrastructure, collaborative leadership, and lean pivot validations on [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html).
+    *   *Structured Tech Taxonomy:* Converted legacy tech stacks into a structured 3-column grid (Hardware & Electronics, Software & Cloud Architecture, and Product Management & Operations).
+    *   *Hardware & PCB Prototyping:* Described custom PCB optical sensor data capture and Sigfox/e-SIM transmission.
+    *   *Product Strategy & Lean Validation:* Detailed disproving B2C residential fit, bilateral feedback loops (app features based on field usage, physical layout improvements like sensor alignment, casing clips, and reset button ergonomics based on hands-on deployment difficulties), and pivoting to B2B targets (retail, factories, and hotels).
+    *   *Layout Consistency:* Promoted headings to standard <h2> and removed the legacy Project Summary section.
 
 ---
 
@@ -120,7 +122,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
 1.  [Completed] Implement the **Interactive Tabbed Layout** in [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) and add all 12 E-Apaci project breakdowns with detailed subpage case studies.
 2.  [Completed] Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
 3.  [Completed] Update [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) with mechanical/hardware achievements (battery fabrication, multispectral array).
-4.  Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
+4.  [Completed] Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
 5.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
 
 ### Phase 3: Styling, SEO, & Visual Assets

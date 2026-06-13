@@ -4,49 +4,117 @@ title: "Energy Eye: Commercial Product Development"
 ---
 
 <section class="project-hero">
+    <span class="project-category-badge">Commercial IoT & Product Management</span>
     <h1>Energy Eye: Commercial Product Development</h1>
-    <p class="role">Project & Deployment Manager | Timeline: 2024 - Present</p>
-    <div class="tech-stack-display">
-        <div class="tech-stack-row">
-            <span class="tech-label">Project Management:</span>
-            <span class="tech-tag">Vendor Management</span>
-            <span class="tech-tag">Project Planning</span>
+    <p class="project-subtitle">
+        Collaborated with a hardware partner and managed a software vendor to develop a low-cost, non-intrusive energy monitoring IoT solution, establishing bilateral feedback loops from hands-on deployment to B2B product-market pivot.
+    </p>
+    
+    <div class="project-metadata-bar">
+        <div class="meta-item">
+            <span class="meta-label">Role</span>
+            <span class="meta-val">Lead Project Manager & Technical Liaison</span>
         </div>
-        <div class="tech-stack-row">
-            <span class="tech-label">Field Operations:</span>
-            <span class="tech-tag">Device Installation</span>
-            <span class="tech-tag">Site Assessment</span>
+        <div class="meta-item">
+            <span class="meta-label">Timeline</span>
+            <span class="meta-val">July 2024 - July 2025</span>
         </div>
-        <div class="tech-stack-row">
-            <span class="tech-label">UI/UX:</span>
-            <span class="tech-tag">Mobile App UI/UX</span>
-            <span class="tech-tag">User-Centric Design</span>
+    </div>
+
+    <!-- Key Performance Indicators (KPIs) -->
+    <div class="project-kpi-grid">
+        <div class="kpi-card">
+            <span class="kpi-number">Custom PCB</span>
+            <span class="kpi-title">Optical Pulse Capture</span>
+            <p class="kpi-desc">Low-cost sensor captures utility meter LED pulses without infrastructure changes.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">Sigfox & e-SIM</span>
+            <span class="kpi-title">Zero Infrastructure</span>
+            <p class="kpi-desc">Dual-connectivity telemetry enables rapid, wire-free field deployment.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">Cross-Func</span>
+            <span class="kpi-title">Collaborative Leadership</span>
+            <p class="kpi-desc">Partnered with 1 hardware engineer and managed 1 software development vendor.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">Lean Pivot</span>
+            <span class="kpi-title">B2B Target Alignment</span>
+            <p class="kpi-desc">Disproved B2C residential fit early, pivoting to retail, factories, and hotels.</p>
+        </div>
+    </div>
+
+    <!-- Structured Tech Taxonomy -->
+    <div class="tech-tax-grid">
+        <div class="tech-tax-card">
+            <h3>Hardware & Electronics</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">Custom PCB Layout</span>
+                <span class="skill-tag">Optical Pulse Sensors</span>
+                <span class="skill-tag">Sigfox Telemetry</span>
+                <span class="skill-tag">e-SIM Cellular Integration</span>
+                <span class="skill-tag">Zero-Infrastructure Enclosures</span>
+            </div>
+        </div>
+        <div class="tech-tax-card">
+            <h3>Software & Cloud Architecture</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">Azure Cloud Services</span>
+                <span class="skill-tag">MySQL Databases</span>
+                <span class="skill-tag">PHP APIs</span>
+                <span class="skill-tag">React Native (Mobile)</span>
+                <span class="skill-tag">Power BI Analytics</span>
+            </div>
+        </div>
+        <div class="tech-tax-card">
+            <h3>Product Management & Operations</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">Software Vendor Management</span>
+                <span class="skill-tag">B2B/B2C Customer Discovery</span>
+                <span class="skill-tag">Bilateral Feedback Loops</span>
+                <span class="skill-tag">Lean Startup Validation</span>
+                <span class="skill-tag">On-Site Field Deployment</span>
+            </div>
         </div>
     </div>
 </section>
 
 <div class="project-feature-image">
-    <img src="{{ site.baseurl }}/assets/images/energy-eye/device.jpg" alt="Energy Eye standalone monitoring unit" style="max-width: 50%; display: block; margin: 0 auto;">
+    <img src="{{ '/assets/images/energy-eye/device.jpg' | relative_url }}" alt="Energy Eye standalone monitoring unit" style="max-width: 50%; display: block; margin: 0 auto;">
 </div>
 
 <section class="project-content-grid">
     <div class="main-content">
-        <h2>Project Summary</h2>
-        <p>Manage the deployment and software lifecycle of "Energy Eye." My role focuses on bridging the gap between raw hardware data and user experience, coordinating with software vendors to translate technical metrics into actionable financial insights for clients.</p>
+        
+        <h2>Hardware & PCB Prototyping</h2>
+        <p>To deliver an affordable energy monitoring solution, I collaborated with a hardware partner who engineered a custom PCB designed to capture energy consumption without wire cutting or electrical shutoffs. The device utilizes a non-intrusive light sensor positioned over the utility meter’s flashing LED pulse indicator. Each flash corresponds to a fraction of a watt-hour consumed. By transmitting raw flash data over Sigfox and cellular e-SIM networks, the hardware achieves a completely wireless, zero-infrastructure connection that sends live metrics straight to the database.</p>
 
         <hr>
 
-        <h3>Hands-On Deployment & Installation</h3>
-        <p>As the deployment manager, I was responsible for the end-to-end installation process. This involved site assessments, hands-on device setup, and ensuring a seamless 'zero-infrastructure' deployment for our clients, directly clipping onto existing meters without any wire cutting.</p>
+        <h2>Product Strategy & Lean Validation</h2>
+        <p>The Energy Eye product lifecycle served as a critical lesson in product-market fit and Lean Startup methodologies. We originally targeted residential consumers (B2C), but direct field testing and customer interviews revealed a major roadblock: B2C users did not find energy visibility valuable enough to justify adopting the hardware. Identifying this early through hands-on deployments allowed us to stop over-engineering B2C features, saving significant R&D resources.</p>
+        <p>Using these field insights, I established a bilateral feedback loop to optimize the product strategy:</p>
+        <ul>
+            <li><strong>For Software:</strong> Translated field usage data into specific features for the software vendor, prioritizing hourly peak vs. off-peak consumption charts and cost projections that business owners needed.</li>
+            <li><strong>For Hardware:</strong> Reported deployment issues (such as optical sensor alignment difficulties, casing clipping adjustments, and hard-to-reach device reset buttons) directly to the hardware partner to simplify the casing design and improve physical installation ergonomics.</li>
+        </ul>
+        <p>This validation guided a successful strategic pivot to focus exclusively on B2B target sectors—specifically retail outlets, factories, and hotels—where energy consumption is a major operating expense and monitoring offers clear, high-yield cost savings.</p>
+
+        <hr>
+
+        <h2>Hands-On Deployment & Installation</h2>
+        <p>As the deployment lead, I oversaw the end-to-end setup at customer locations. This involved conducting site assessments, ensuring stable signal coverage (Sigfox/Cellular), and conducting hands-on device testing. The clip-on casing allows the sensor to attach directly onto existing utility meters in minutes, ensuring a clean, zero-infrastructure rollout with no operations downtime.</p>
+        
         <div class="installation-grid">
             <div class="install-card">
-                <img src="{{ site.baseurl }}/assets/images/energy-eye/install.jpg" alt="Energy meter installation example 1">
+                <img src="{{ '/assets/images/energy-eye/install.jpg' | relative_url }}" alt="Energy meter installation example 1">
             </div>
             <div class="install-card">
-                <img src="{{ site.baseurl }}/assets/images/energy-eye/install2.jpg" alt="Energy meter installation example 2">
+                <img src="{{ '/assets/images/energy-eye/install2.jpg' | relative_url }}" alt="Energy meter installation example 2">
             </div>
             <div class="install-card">
-                <img src="{{ site.baseurl }}/assets/images/energy-eye/install3.jpg" alt="Energy meter installation example 3">
+                <img src="{{ '/assets/images/energy-eye/install3.jpg' | relative_url }}" alt="Energy meter installation example 3">
             </div>
         </div>
 
@@ -54,23 +122,14 @@ title: "Energy Eye: Commercial Product Development"
 
         <div class="feature-row feature-row--reverse">
             <div class="feature-text">
-                <h3>Led Mobile App UI/UX Design</h3>
-                <p>I led the UI/UX design for the mobile application, focusing on translating complex energy data into actionable financial insights for business owners. The goal was to create an intuitive interface that clearly visualized cost savings, such as the 'Peak vs. Off-Peak' usage, empowering users to make informed decisions.</p>
+                <h2>React Native UI/UX & Data Analytics</h2>
+                <p>I directed the customer journey and UI/UX design for the React Native mobile app and web portal. The core design philosophy was translating raw data points into clear financial terms. By showing peak vs. off-peak consumption ratios and tracking historical trends, the app empowers business owners to change operational behaviors (like running heavy machinery during off-peak times) to secure direct operational savings.</p>
             </div>
             <div class="feature-image">
                 <div class="app-gallery">
-                    <img src="{{ site.baseurl }}/assets/images/energy-eye/app1.jpg" alt="Energy Eye mobile app graph visualization">
-                    <img src="{{ site.baseurl }}/assets/images/energy-eye/app2.jpg" alt="Energy Eye Dashboard Summary">
+                    <img src="{{ '/assets/images/energy-eye/app1.jpg' | relative_url }}" alt="Energy Eye mobile app graph visualization">
+                    <img src="{{ '/assets/images/energy-eye/app2.jpg' | relative_url }}" alt="Energy Eye Dashboard Summary">
                 </div>
-            </div>
-        </div>
-        
-        <hr>
-
-        <div class="feature-row">
-            <div class="feature-text">
-                <h3>Software Vendor Management & Data Logic</h3>
-                <p>I acted as the technical bridge between the hardware and the external software development team. I was responsible for translating raw sensor data logic into clear requirements for the developers, ensuring the app displayed accurate energy metrics. I also led the UI/UX feedback loop, gathering insights from field installations to guide the software team in building features that customers actually needed.</p>
             </div>
         </div>
 
