@@ -4,27 +4,81 @@ title: "Smart Aquaculture Ecosystem: Sensor to Cloud"
 ---
 
 <section class="project-hero">
+    <span class="project-category-badge">Autonomous IoT & Precision Agriculture</span>
     <h1>Smart Aquaculture Ecosystem: Sensor to Cloud</h1>
-    <p class="role">Role: Lead R&D Engineer | Timeline: 2017 - 2019, 2021 - 2022</p>
-    <div class="tech-stack-display">
-        <div class="tech-stack-row">
-            <span class="tech-label">Hardware:</span>
-            <span class="tech-tag">Circuit Design & Prototyping</span>
-            <span class="tech-tag">LoRa</span>
-            <span class="tech-tag">Solar Power Mgmt</span>
-            <span class="tech-tag">Self-Cleaning Mechanism</span>
+    <p class="project-subtitle">
+        Developed a solar-powered floating IoT telemetry system to automate water quality monitoring, eliminate bio-fouling probe failure, and safeguard shrimp harvests.
+    </p>
+    
+    <div class="project-metadata-bar">
+        <div class="meta-item">
+            <span class="meta-label">Role</span>
+            <span class="meta-val">Lead R&D / Operations Engineer</span>
         </div>
-        <div class="tech-stack-row">
-            <span class="tech-label">Software:</span>
-            <span class="tech-tag">Python</span>
-            <span class="tech-tag">C++</span>
-            <span class="tech-tag">Web Dashboard</span>
-            <span class="tech-tag">Data Filtering</span>
+        <div class="meta-item">
+            <span class="meta-label">Timeline</span>
+            <span class="meta-val">2017 - 2019, 2021 - 2022</span>
         </div>
-        <div class="tech-stack-row">
-            <span class="tech-label">Management:</span>
-            <span class="tech-tag">Vendor Coordination</span>
-            <span class="tech-tag">Product Roadmap</span>
+    </div>
+
+    <!-- Key Performance Indicators (KPIs) -->
+    <div class="project-kpi-grid">
+        <div class="kpi-card">
+            <span class="kpi-number">-75%</span>
+            <span class="kpi-title">Sensor Cost Savings</span>
+            <p class="kpi-desc">Engineered custom sensor units concepts at 25% of standard commercial alternatives.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">4 Months</span>
+            <span class="kpi-title">Zero Maintenance</span>
+            <p class="kpi-desc">Validated continuous field operations over a complete shrimp production cycle.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">+95%</span>
+            <span class="kpi-title">Data Reliability</span>
+            <p class="kpi-desc">Achieved via acknowledgment handshake telemetry protocols and data filtering.</p>
+        </div>
+        <div class="kpi-card">
+            <span class="kpi-number">100%</span>
+            <span class="kpi-title">Power Autonomy</span>
+            <p class="kpi-desc">Sustained indefinitely using custom solar battery charging and deep-sleep cycling.</p>
+        </div>
+    </div>
+
+    <!-- Structured Tech Taxonomy -->
+    <div class="tech-tax-grid">
+        <div class="tech-tax-card">
+            <h3>Hardware & Firmware</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">Arduino Pro Mini</span>
+                <span class="skill-tag">C++ (Embedded)</span>
+                <span class="skill-tag">LoRa Telemetry</span>
+                <span class="skill-tag">Circuit & PCB Design</span>
+                <span class="skill-tag">Solar Power Management</span>
+                <span class="skill-tag">UV Anti-Fouling Control</span>
+            </div>
+        </div>
+        <div class="tech-tax-card">
+            <h3>Software & Cloud</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">Raspberry Pi Gateway</span>
+                <span class="skill-tag">Python (Gateway Logic)</span>
+                <span class="skill-tag">PHP & MySQL Database</span>
+                <span class="skill-tag">Google Maps API</span>
+                <span class="skill-tag">Spatial Web Dashboards</span>
+                <span class="skill-tag">Historical Trend Graphs</span>
+            </div>
+        </div>
+        <div class="tech-tax-card">
+            <h3>Operations & Leadership</h3>
+            <div class="tech-tax-tags">
+                <span class="skill-tag">End-to-End Product Lead</span>
+                <span class="skill-tag">Cross-Functional internal Teams</span>
+                <span class="skill-tag">PCB Fabrication Vendors</span>
+                <span class="skill-tag">Field-Installation Research</span>
+                <span class="skill-tag">User SOP Documentation</span>
+                <span class="skill-tag">Product Roadmap Definition</span>
+            </div>
         </div>
     </div>
 </section>
@@ -59,6 +113,26 @@ title: "Smart Aquaculture Ecosystem: Sensor to Cloud"
                 <img src="{{ site.baseurl }}/assets/images/aquaculture/base.jpg" alt="LoRaWAN Base Station">
                 <h4>LoRaWAN Base Station</h4>
                 <p>Built a central gateway that collects data from all nodes via long-range LoRa and pushes it to the cloud via cellular (SIM).</p>
+            </div>
+        </div>
+
+        <hr>
+
+        <h3>Software & Field Reliability</h3>
+        <p>Physical hardware is only half the solution in aquaculture. To sustain a 4-month zero-maintenance deployment in harsh, bio-fouling pond environments, I developed advanced firmware algorithms and self-cleaning hardware control loops.</p>
+
+        <div class="tech-tax-grid">
+            <div class="tech-tax-card">
+                <h3>C++ Drift Compensation</h3>
+                <p>Developed a self-correcting calibration algorithm in C++ to autonomously compensate for sensor drift over time. This mathematically adjusted raw values, keeping water chemistry telemetry (pH, DO, Temp) highly accurate over months without requiring manual recalibration.</p>
+            </div>
+            <div class="tech-tax-card">
+                <h3>UV Anti-Fouling Self-Cleaning</h3>
+                <p>Bio-fouling (algae and bacterial growth) on submerged probes typically ruins telemetry within weeks. I integrated a UV light cleaning mechanism controlled by firmware that periodically sterilized the sensor probes, preventing fouling and ensuring zero-maintenance survivability.</p>
+            </div>
+            <div class="tech-tax-card">
+                <h3>Low-Power Telemetry Handshake</h3>
+                <p>To operate indefinitely on solar energy, I engineered a deep-sleep cycle waking the Arduino node every 15 minutes. Data transmission utilized an acknowledgment-based LoRa handshake: the node continuously retries with error-filtering until the base station confirms receipt.</p>
             </div>
         </div>
 

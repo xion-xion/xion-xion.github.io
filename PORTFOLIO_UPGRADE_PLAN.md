@@ -40,6 +40,11 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *Detailed Subpages:* Created 12 individual project pages under `projects/smart-factory/` folder detailing the Problem, Action, Result, and metrics for each phase.
     *   *Style & Script Integration:* Added custom responsive CSS and tab switching Javascript logic to assets/css/style.css and the project HTML.
     *   *Visualization & Layout Refinement:* Updated the dashboard gallery with `web_firing_v2.png` and `web_vibration.png`, aligned image heights, polished dashboard items into premium hover cards, and renamed all action buttons to "More Details".
+*   **Phase 2 Stage 4 (Completed): Aquaculture Reliability Upgrades**
+    *   *Hero & KPI Grid:* Upgraded the introduction, metadata, and added a KPI grid (highlighting -75% cost, 4-month runtime, +95% reliability, 100% power autonomy) on [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html).
+    *   *Structured Tech Taxonomy:* Converted the tech-stack display to a structured taxonomy grid matching the premium theme.
+    *   *Software & Field Reliability:* Added a detailed Software & Field Reliability section highlighting C++ sensor drift compensation, UV anti-fouling self-cleaning, and low-power telemetry handshake cycles.
+
 
 
 
@@ -107,7 +112,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
 
 ### Phase 2: Technical Deep-Dive & Interactive UI (Project Pages)
 1.  [Completed] Implement the **Interactive Tabbed Layout** in [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) and add all 12 E-Apaci project breakdowns with detailed subpage case studies.
-2.  Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
+2.  [Completed] Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
 3.  Update [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) with mechanical/hardware achievements (battery fabrication, multispectral array).
 4.  Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
 5.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
