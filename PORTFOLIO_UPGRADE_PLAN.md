@@ -56,6 +56,11 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *Hardware & PCB Prototyping:* Described custom PCB optical sensor data capture and Sigfox/e-SIM transmission.
     *   *Product Strategy & Lean Validation:* Detailed disproving B2C residential fit, bilateral feedback loops (app features based on field usage, physical layout improvements like sensor alignment, casing clips, and reset button ergonomics based on hands-on deployment difficulties), and pivoting to B2B targets (retail, factories, and hotels).
     *   *Layout Consistency:* Promoted headings to standard <h2> and removed the legacy Project Summary section.
+*   **Phase 2 Stage 7 (Completed): SK3 Kyodai / Jom! Laundry Upgrades**
+    *   *Hero & KPI Grid:* Upgraded the hero section with a category badge, outcomes-focused subtitle, and metadata bar. Added a 4-card KPI grid highlighting 3-year setup loan repayment, -50% OPEX maintenance savings, 100% student staffing, and 99% uptime on [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html).
+    *   *Structured Tech Taxonomy:* Converted legacy tech stacks into a structured 3-column grid (Technical & Mechanical Engineering, Business Operations & Accounting, and Operational Leadership).
+    *   *Section & Heading Upgrades:* Promoted headings to standard <h2> and removed the legacy Project Summary section.
+    *   *Content Details:* Documented corporate entity SK3 Kyodai Sdn Bhd, student staff training, in-house mechanical repairs, and QuickBooks financial automation.
 
 ---
 
@@ -123,7 +128,7 @@ Khairi's competitive edge is **System Integration with measurable business resul
 2.  [Completed] Update [project-aquaculture.html](file:///home/xion/xion-xion.github.io/projects/project-aquaculture.html) with software and reliability metrics (drift compensation, zero maintenance).
 3.  [Completed] Update [project-drone.html](file:///home/xion/xion-xion.github.io/projects/project-drone.html) with mechanical/hardware achievements (battery fabrication, multispectral array).
 4.  [Completed] Update [project-energy-eye.html](file:///home/xion/xion-xion.github.io/projects/project-energy-eye.html) with the custom PCB details and product-market fit business learnings.
-5.  Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
+5.  [Completed] Update [project-laundry.html](file:///home/xion/xion-xion.github.io/projects/project-laundry.html) with the corporate name and the 3-year loan repayment milestone.
 
 ### Phase 3: Styling, SEO, & Visual Assets
 1.  [Completed] Add CSS styles for the tab switcher and custom UI items to style files.
