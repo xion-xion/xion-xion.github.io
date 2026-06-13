@@ -512,9 +512,26 @@ footer a:hover {
 
 /* Aquaculture specific hardware card image override to prevent cropping of vertical images */
 .aquaculture-hardware-grid .hardware-card img {
-    aspect-ratio: auto;
-    height: auto;
-    object-fit: contain;
+    aspect-ratio: 3 / 4;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aquaculture-hardware-grid .double-image-container {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.aquaculture-hardware-grid .double-image-container img {
+    width: 100%;
+    flex: 1;
+    min-height: 0;
+    object-fit: cover;
+    margin-bottom: 0;
 }
 
 .hardware-grid.two-column-grid {
