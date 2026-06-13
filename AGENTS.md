@@ -19,9 +19,9 @@ This is the personal Jekyll-based portfolio of **Muhammad Khairi bin Samsudin**,
 ---
 
 ## 3. Reference Pointers
-*   **Source of Truth (Read-Only):** [info/Khairi_Information.md](file:///home/xion/xion-xion.github.io/info/Khairi_Information.md). Do not hallucinate or invent info/metrics.
+*   **Source of Truth (Read-Only):** [info/Khairi_Information.md](file:///home/xion/xion-xion.github.io/info/Khairi_Information.md). Do not hallucinate or invent info/metrics. Note: The `info/` directory is git-ignored; do **NOT** stage or commit changes to it.
 *   **Task List (Writable):** [PORTFOLIO_UPGRADE_PLAN.md](file:///home/xion/xion-xion.github.io/PORTFOLIO_UPGRADE_PLAN.md). Update task status as completed.
-*   **Style Sheet (Writable):** [assets/css/style.css](file:///home/xion/xion-xion.github.io/assets/css/style.css). Contains typography, dark mode variables, and animations.
+*   **Style Sheet (Writable):** [assets/css/style.css](file:///home/xion/xion-xion.github.io/assets/css/style.css). Contains typography, layout utilities, and custom grids.
 *   **Pages (Writable):** [index.html](file:///home/xion/xion-xion.github.io/index.html) and files under [projects/](file:///home/xion/xion-xion.github.io/projects/).
 
 ---
@@ -29,5 +29,5 @@ This is the personal Jekyll-based portfolio of **Muhammad Khairi bin Samsudin**,
 ## 4. Key Rules
 *   **Relative Paths:** Use Liquid relative URL filter for internal assets/links:
     *   `{{ '/path' | relative_url }}`.
-*   **Front Matter:** Every new page requires Jekyll front matter (specifying `layout: default` and `title`).
-*   **Aesthetics:** Align styles with the premium dark theme in [assets/css/style.css](file:///home/xion/xion-xion.github.io/assets/css/style.css). Do not use dummy image placeholders (prefer SVGs).
+*   **Front Matter:** Every page requires Jekyll front matter (specifying `layout: default`, `title`, plus outcomes-focused `description` and `og_image` for dynamic SEO preview cards).
+*   **Aesthetics:** Align styles with the premium navy-accented layout in [assets/css/style.css](file:///home/xion/xion-xion.github.io/assets/css/style.css). Do not use dummy image placeholders (prefer SVGs).
