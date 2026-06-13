@@ -39,6 +39,8 @@ This repository is the personal Jekyll-based portfolio of **Muhammad Khairi bin 
     *   *Interactive Tabbed Layout:* Implemented an interactive tabbed layout on [project-smart-factory.html](file:///home/xion/xion-xion.github.io/projects/project-smart-factory.html) separating E-Apaci projects into Facility-Wide Monitoring, Manufacturing Data, and Equipment Health tabs.
     *   *Detailed Subpages:* Created 12 individual project pages under `projects/smart-factory/` folder detailing the Problem, Action, Result, and metrics for each phase.
     *   *Style & Script Integration:* Added custom responsive CSS and tab switching Javascript logic to assets/css/style.css and the project HTML.
+    *   *Visualization & Layout Refinement:* Updated the dashboard gallery with `web_firing_v2.png` and `web_vibration.png`, aligned image heights, polished dashboard items into premium hover cards, and renamed all action buttons to "More Details".
+
 
 
 
