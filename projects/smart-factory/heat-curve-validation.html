@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Automated Heat Curve Validation System"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Automated Heat Curve Validation System</h1>
+    <p class="project-subtitle">Developing a custom Java watchdog program to check multi-zone temperature recipes in real-time.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>May 2026</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Custom Java Programming, SQL Database Integration, Niagara Workbench (Dynamic UI, Validation Algorithms, Real-time Dashboards)</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Developed the core architecture and custom Java program solo; managed 1 junior engineer for scaling</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>Manual configuration of material-specific temperature profiles ("heat curves") across multi-zone firing machines frequently suffered from human input errors. A single incorrect Set Point (SP) could take 1 to 2 weeks to identify, resulting in the scrapping of entire production batches and risking $50,000 to $80,000 in lost sales per incident.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I engineered a software watchdog using data already aggregated on the server. To avoid SQL database connection bottle-necks, I developed a custom Java program capable of fetching complete multi-zone recipes simultaneously. I designed an algorithm to compare entered SP/PV values against the SQL recipes in real-time, creating UI indicators (yellow for mismatch, red for failure) and managed a junior engineer to deploy it across 22 machines.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Completely eliminated the 1-2 week error detection lag, providing instantaneous alarms during changes if configuration mismatches are entered. The system reduced defective product output by 95% and safeguarded the company against catastrophic batch losses ($50,000 to $80,000 in sales per incident).</p>
+        </div>
+    </div>
+</section>

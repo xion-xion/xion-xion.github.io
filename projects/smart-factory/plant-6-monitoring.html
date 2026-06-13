@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Temp & Status Expansion (Plant 6)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Temp & Status Expansion (Plant 6 Rollout)</h1>
+    <p class="project-subtitle">Expanding telemetry to 287 controllers and introducing multi-port hub network isolation and automated alerts.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>February 2026 - March 2026</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Modbus RTU, RS-485 Multi-port Hubs, Python, SQL Database, Niagara Framework, WhatsApp API Integration</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Managed 1 hardware installation and wiring vendor</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>Plant 6 required manual recording of temperatures across 13 machines (287 heating zones), occupying 4.5 hours per shift. Additionally, system scaling exposed bottlenecks in the original Plant 5 design: Wi-Fi instability in the industrial environment dropped BACnet data, individual EasyIO controllers increased complexity, and single massive daisy-chains made diagnostic tracing very difficult.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I architected a rugged multi-port RS-485 network using physical hub isolation for each machine. This structure eliminated BACnet and wireless dependencies in favor of wired Modbus RTU routing to JACE. I developed a custom Python script that integrated with SQL to listen to Niagara alarms and automatically push alert messages directly to stakeholder WhatsApp groups. Upon successful deployment, I completely retrofitted the Plant 5 network with this hub topology.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Saved 4.5 hours of manual data collection per shift, enabling the client to reduce headcount requirements by 3 workers per day. System reliability rose significantly, and diagnostic times were cut by isolating network faults to individual machines. Stakeholders are now immediately alerted to temperature issues via automated WhatsApp messages.</p>
+        </div>
+    </div>
+</section>

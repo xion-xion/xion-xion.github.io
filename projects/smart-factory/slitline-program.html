@@ -1,0 +1,51 @@
+---
+layout: default
+title: "SlitLine Quality Watchdog (Pressing Line - Phase 3)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>SlitLine Quality Watchdog (Pressing Line - Phase 3)</h1>
+    <p class="project-subtitle">Automating quality control enforcement by interlocking database logs directly with PLC operations.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Solo Software Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>December 2025 - January 2026</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Niagara Workbench (SlitLine Program, Custom Logic & Software Interlocks), Microsoft SQL Server, RS-485 Modbus RTU</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Executed end-to-end as a solo software engineering project</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>Quality control operators frequently missed manual per-shift measurements. When defective material rolls went unnoticed, it delayed critical troubleshooting for both the pressing machines and the upstream casting machines, resulting in substantial material scrap and operational inefficiencies.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I engineered a purely software-driven automated interlock, designated as the "SlitLine" program, using Niagara Workbench. I programmed Niagara to continuously poll the central Microsoft SQL Server database to verify if shift measurements had been recorded. Incorporating operational buffers for shift handovers, the watchdog triggers a Modbus write command to halt the line's PLCs if QC entry compliance is not met within the window.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Enforced 100% compliance with quality control procedures. By guaranteeing early defect checks, the interlock successfully prevented the production of out-of-spec rolls, allowing operators to immediately trace upstream casting or pressing issues before wasting raw material.</p>
+        </div>
+    </div>
+</section>

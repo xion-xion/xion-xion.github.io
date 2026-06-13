@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Honing Line Yield Tracking (Phase 1)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Honing Line Yield Tracking (Phase 1)</h1>
+    <p class="project-subtitle">Designing custom proximity sensor mounts to expose undocumented product breakage.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>November 2023 - December 2023</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Niagara Workbench, RS-485 Modbus RTU, JACE Controllers, PLCs, Proximity Sensors, Digital Input Controllers, CAD/Hardware Design, SQL Database Integration, Custom Java Scripting</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Managed 1 wiring vendor, 1 fabrication vendor, 1 Niagara software vendor, 1 PLC vendor, and 1 internal technician</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>Management lacked real-time visibility into operator productivity and OEE across 8 honing machines. Furthermore, high-value parts (valued at $15 per piece) were breaking or being mishandled during the process. Because there was no input-versus-output tracking, identifying the exact rate or cause of product breakage was impossible.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I integrated 8 PLCs into JACE gateways. To uncover the breakage, I designed custom physical sensor holders in CAD, procured their fabrication, and drafted the electrical schematics. I directed a vendor to wire 16 proximity sensors at the machine outputs, terminating signals into Modbus digital input modules. In Niagara, I programmed logic to cross-reference SQL input counts against physical sensor outputs.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Achieved 100% data automation and identical OEE gains to the pressing line. Most importantly, the proximity sensors successfully exposed handling errors and machine faults, uncovering between $3,900 and $15,600 per month in undocumented product breakage, allowing management to immediately adjust handling procedures.</p>
+        </div>
+    </div>
+</section>

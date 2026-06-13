@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Real-time Temperature Monitoring (Plant 5)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Real-time Temperature Monitoring (Plant 5 Rollout)</h1>
+    <p class="project-subtitle">Automating high-zone temperature logging to slash quality troubleshooting times from weeks to hours.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>July 2023 - September 2023</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Modbus RTU, RS-485, Tridium JACE 8000 Gateways, Niagara Workbench, Niagara Historian, SMS Gateway Integration</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Managed 1 wiring vendor; collaborated with 1 certified Tridium System Integrator</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>Operators were spending 3 hours per shift manually recording temperature data across 9 firing machines spanning 181 individual heating zones. This analog, paper-based collection was highly prone to transcription errors and did not provide historical records. When quality defects occurred, troubleshooting to find the root-cause temperature deviations dragged on for 1 to 2 weeks.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I architected a fault-tolerant RS-485 network utilizing the Modbus RTU protocol, deploying Tridium JACE 8000 controllers as gateways. Developed custom Niagara logic to aggregate Temperature Present Value (PV) and Set Point (SP) data. The program verified live parameters, triggered flashing visual dashboard alarms, and sent critical SMS alerts. I also designed a web-based SCADA interface with Niagara's built-in historian for real-time visualization.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Successfully eliminated 3 hours of manual data collection per shift, enabling a direct reduction in operational headcount by 3 workers per day. The introduction of historical data trends, visual alarms, and instant SMS alerts slashed root-cause troubleshooting for quality defects from 1-2 weeks down to less than a single day.</p>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Machine Status Monitoring Architecture (Phase 1)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Machine Status Monitoring Architecture (Phase 1)</h1>
+    <p class="project-subtitle">Digitizing obsolete machinery status indicators via non-invasive hardware retrofits and alerts.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>October 2023</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>Non-Invasive Relay Retrofitting, EasyIO Digital Input Controllers & BACnet Gateways, RS-485 Modbus RTU, JACE Controllers, Niagara Workbench, SMS Gateway</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Managed 1 wiring vendor; collaborated with 1 certified Tridium System Integrator</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>The plant lacked centralized visibility into machine operating states across 9 firing machines. Fault detection relied on physical control panel lights (auto, manual, emergency stop, etc.). Obsolete PLCs made software integration high-risk, so maintenance teams often took hours to notice faults, escalating minor issues into costly repairs.</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I engineered a non-invasive, zero-downtime hardware retrofitting solution. I tapped directly into the physical panel lights (144 data points across 9 machines), terminating the signals into relays connected to EasyIO digital input controllers. Transmitted data via BACnet to JACE controllers. Using Niagara Workbench, I integrated this status data into the temperature dashboard and coded SMS alerts for critical faults.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Digitized legacy machines with zero downtime. Slashed maintenance response times from several hours to under 5 minutes. Real-time alerts and dashboard visibility empowered maintenance teams to react instantly, preventing minor stops from cascading into major delays.</p>
+        </div>
+    </div>
+</section>

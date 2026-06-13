@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Sensor Telemetry & Safety UI (Pressing Line - Phase 2)"
+---
+
+<div class="project-hero">
+    <a href="{{ '/projects/project-smart-factory.html' | relative_url }}" class="project-category-badge">&larr; Back to Smart Factory Ecosystem</a>
+    <h1>Sensor Telemetry & Safety UI (Pressing Line - Phase 2)</h1>
+    <p class="project-subtitle">Integrating smart telemetry and operator presence tracking to enforce safety protocols.</p>
+</div>
+
+<section class="project-content-grid">
+    <div class="main-content">
+        <div class="details-meta-card">
+            <table>
+                <tr>
+                    <th>Role</th>
+                    <td>Lead Systems Integration Engineer</td>
+                </tr>
+                <tr>
+                    <th>Timeline</th>
+                    <td>January 2024 - February 2024</td>
+                </tr>
+                <tr>
+                    <th>Technologies</th>
+                    <td>RS-485 Modbus RTU, Smart Temperature & Pressure Sensors, PLC Data Extraction, Niagara Workbench UI & Logic</td>
+                </tr>
+                <tr>
+                    <th>Team & Vendors</th>
+                    <td>Collaborated with 1 internal technician</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="subproject-details-grid">
+            <div class="details-block">
+                <h3>The Problem & Context</h3>
+                <p>The digital-only sensors on the pressing machines did not provide high-resolution numerical data, making quality optimization difficult. Additionally, management lacked a verifiable way to enforce new safety regulations that required operators to run pre-shift checks and remain physically present at their machines (acknowledging an HMI prompt every 10 minutes).</p>
+            </div>
+            <div class="details-block">
+                <h3>The Action & Integration</h3>
+                <p>I sourced and retrofitted Modbus RS-485 capable temperature and pressure sensors, swapping physical wiring while keeping existing safety interlocks active. In Niagara, I mapped the new telemetry, updated the centralized dashboard with visual tolerance alarms, and designed a green/red visual indicator for safety checks. I also programmed a background validation module to log operator HMI response times.</p>
+            </div>
+        </div>
+
+        <div class="details-block" style="border-top: 4px solid #38a169;">
+            <h3>Measurable Business ROI</h3>
+            <p>Empowered production teams with granular temperature/pressure trends, enabling defects to be diagnosed instantly. Safety compliance and operator accountability were guaranteed via automated, unalterable reports of pre-shift checks and presence responses sent to management.</p>
+        </div>
+    </div>
+</section>

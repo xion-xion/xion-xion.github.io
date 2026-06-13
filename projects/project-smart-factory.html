@@ -101,6 +101,269 @@ title: Integrated Smart Factory Ecosystem (IIoT)
 
         <hr>
 
+        <h2>Ecosystem Project Phases</h2>
+        <p>Explore the 12 phases of this system integration, grouped by operational area. Click each phase to view a detailed case study detailing the technical implementation, problems solved, and ROI metrics.</p>
+
+        <div class="tabs-container">
+            <div class="tab-buttons" role="tablist">
+                <button class="tab-button active" data-tab="tab-facility" role="tab" aria-selected="true">Facility & Environment</button>
+                <button class="tab-button" data-tab="tab-manufacturing" role="tab" aria-selected="false">Manufacturing & Production</button>
+                <button class="tab-button" data-tab="tab-health" role="tab" aria-selected="false">Equipment Health & Maintenance</button>
+            </div>
+
+            <div class="tab-panels">
+                <!-- Tab 1: Facility-Wide Monitoring & Environment -->
+                <div id="tab-facility" class="tab-panel active" role="tabpanel">
+                    <div class="subproject-list">
+                        <!-- Plant 5 Rollout -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Real-time Temperature Monitoring (Plant 5 Rollout)</h3>
+                                <p>Architected an RS-485 Modbus RTU network using Niagara JACE gateways to replace error-prone manual logs across 9 firing machines (181 zones), instantly triggering alerts for deviations.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">3 Hours Saved/Shift</span>
+                                    <span class="metric-badge green">3 Workers Saved/Day</span>
+                                    <span class="metric-badge accent">Modbus RTU</span>
+                                    <span class="metric-badge accent">Niagara JACE</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/plant-5-monitoring.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Intelligent AC -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Intelligent AC System for Energy Reduction</h3>
+                                <p>Engineered an automated HVAC control system by integrating a Mitsubishi FX5 PLC with JACE controllers to govern AC operations based on machine status, schedules, and live sensor data.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">10-15% Energy Saved</span>
+                                    <span class="metric-badge green">10% Maintenance Saved</span>
+                                    <span class="metric-badge accent">Mitsubishi PLC</span>
+                                    <span class="metric-badge accent">HVAC Logic</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/intelligent-ac.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Plant 6 Rollout -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Temp & Status Expansion (Plant 6 Rollout)</h3>
+                                <p>Scaled the temperature network to 13 machines (287 controllers) using multi-port RS-485 hubs to isolate communication faults, paired with a custom Python/SQL WhatsApp alert script.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">4.5 Hours Saved/Shift</span>
+                                    <span class="metric-badge orange">WhatsApp Alerts</span>
+                                    <span class="metric-badge accent">Python & SQL</span>
+                                    <span class="metric-badge accent">RS-485 Hubs</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/plant-6-monitoring.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Manufacturing Data & Production Automation -->
+                <div id="tab-manufacturing" class="tab-panel" role="tabpanel">
+                    <div class="subproject-list">
+                        <!-- Pressing Line Phase 1 -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Automated Pressing Line Data (Phase 1)</h3>
+                                <p>Integrated 28 PLCs into JACE controllers to track operator productivity, downtime, and live OEE calculations, feeding a SQL database to automate 100% of shift reports.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">100% Data Automation</span>
+                                    <span class="metric-badge green">+50% Productivity</span>
+                                    <span class="metric-badge accent">OEE Algorithms</span>
+                                    <span class="metric-badge accent">SQL Server</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/pressing-line-phase-1.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Pressing Line Phase 2 -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Sensor Telemetry & Safety UI (Pressing Line - Phase 2)</h3>
+                                <p>Retrofitted high-resolution pressure/temperature Modbus sensors, creating a live safety compliance HMI tracker to log operator presence and safety check response times.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge orange">Safety Compliance</span>
+                                    <span class="metric-badge accent">HMI Tracker</span>
+                                    <span class="metric-badge accent">Modbus Sensors</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/pressing-line-phase-2.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- SlitLine Program -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>SlitLine Quality Watchdog (Pressing Line - Phase 3)</h3>
+                                <p>Engineered a SQL watchdog interlock using Niagara Workbench that polls shift QC data and halts PLC operations over Modbus if quality measurements are not entered on time.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">100% QC Compliance</span>
+                                    <span class="metric-badge orange">Software Interlock</span>
+                                    <span class="metric-badge accent">SQL Database</span>
+                                    <span class="metric-badge accent">PLC Writing</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/slitline-program.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Honing Line Phase 1 -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Honing Line Yield Tracking (Phase 1)</h3>
+                                <p>Designed custom CAD proximity sensor mounts across 8 honing machines, tracking live inputs versus physical output to expose hidden product breakage.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">$3.9k-$15.6k/mo Found</span>
+                                    <span class="metric-badge accent">CAD & Fab</span>
+                                    <span class="metric-badge accent">Proximity Sensors</span>
+                                    <span class="metric-badge accent">Yield Analytics</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/honing-line-phase-1.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Honing Line Phase 2 -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Parallel Condition Monitoring (Honing Line - Phase 2)</h3>
+                                <p>Built a cost-effective parallel network using PT100 temperature and Modbus pressure sensors to monitor machine health and eliminate material scrap from incorrect setups.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">50% Hardware Savings</span>
+                                    <span class="metric-badge green">99% Scrap Reduction</span>
+                                    <span class="metric-badge accent">PT100 Sensors</span>
+                                    <span class="metric-badge orange">Condition Monitoring</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/honing-line-phase-2.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Equipment Health & Predictive Maintenance -->
+                <div id="tab-health" class="tab-panel" role="tabpanel">
+                    <div class="subproject-list">
+                        <!-- Machine Status Monitoring -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Machine Status Monitoring Architecture (Phase 1)</h3>
+                                <p>Engineered a non-invasive, zero-downtime hardware retrofit tapping into indicator lights, forwarding status to EasyIO gateways and SMS alerts for faults.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">&lt;5 Mins Response</span>
+                                    <span class="metric-badge orange">Non-Invasive Retrofit</span>
+                                    <span class="metric-badge accent">EasyIO Gateway</span>
+                                    <span class="metric-badge accent">Relay Integration</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/machine-status-monitoring.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Predictive Vibration Prototype -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Predictive Vibration Monitoring (Phase 1 - Pusher)</h3>
+                                <p>Deployed a prototype Modbus vibration sensor on a pneumatic pusher mechanism, writing threshold analysis programs to stop product pileups and salvage inventory.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">$300-$1.2k/Anomaly Saved</span>
+                                    <span class="metric-badge orange">Predictive Maintenance</span>
+                                    <span class="metric-badge accent">Vibration Sensors</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/predictive-vibration-prototype.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Predictive Vibration Scaling -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Vibration Monitoring Scaling (Phase 2 - Multi-Sensor)</h3>
+                                <p>Expanded the vibration system to 5 sensors directly connected to the JACE, safeguarding high-risk pumps and structures, integrated with automated WhatsApp alerts.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">Prevented 3-Week Shutdown</span>
+                                    <span class="metric-badge orange">WhatsApp API</span>
+                                    <span class="metric-badge accent">Multi-Sensor (5 Nodes)</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/predictive-vibration-scaling.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+
+                        <!-- Automated Heat Curve Validation -->
+                        <div class="subproject-card">
+                            <div class="subproject-info">
+                                <h3>Automated Heat Curve Validation System</h3>
+                                <p>Developed a Java-based server program fetching and comparing manually entered firing zone Set Points against authorized recipes to flag setup errors.</p>
+                                <div class="subproject-badges">
+                                    <span class="metric-badge green">$50k-$80k Protected/Inc</span>
+                                    <span class="metric-badge green">95% Error Reduction</span>
+                                    <span class="metric-badge accent">Java Watchdog</span>
+                                    <span class="metric-badge orange">Recipe Validation</span>
+                                </div>
+                            </div>
+                            <div class="subproject-action">
+                                <a href="{{ '/projects/smart-factory/heat-curve-validation.html' | relative_url }}" class="button">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const tabButtons = document.querySelectorAll('.tab-button');
+                const tabPanels = document.querySelectorAll('.tab-panel');
+                
+                tabButtons.forEach(button => {
+                    button.addEventListener('click', () => {
+                        // Deactivate all buttons
+                        tabButtons.forEach(btn => {
+                            btn.classList.remove('active');
+                            btn.setAttribute('aria-selected', 'false');
+                        });
+                        // Hide all panels
+                        tabPanels.forEach(panel => panel.classList.remove('active'));
+                        
+                        // Activate current button
+                        button.classList.add('active');
+                        button.setAttribute('aria-selected', 'true');
+                        
+                        // Show current panel
+                        const targetId = button.getAttribute('data-tab');
+                        const targetPanel = document.getElementById(targetId);
+                        if (targetPanel) {
+                            targetPanel.classList.add('active');
+                        }
+                    });
+                });
+            });
+        </script>
+
+        <hr>
+
+        <h2>System Components & Dashboards</h2>
+        
         <h3>Industrial Panel Design & Wiring</h3>
         <div class="hardware-grid two-column-grid">
             <div class="hardware-card">
