@@ -510,6 +510,13 @@ footer a:hover {
     color: #2c5282;
 }
 
+/* Aquaculture specific hardware card image override to prevent cropping of vertical images */
+.aquaculture-hardware-grid .hardware-card img {
+    aspect-ratio: auto;
+    height: auto;
+    object-fit: contain;
+}
+
 .hardware-grid.two-column-grid {
     grid-template-columns: repeat(2, 1fr);
 }
